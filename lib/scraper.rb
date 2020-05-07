@@ -28,4 +28,6 @@ end
   end
 
 end
-Scraper.get_courses
+doc = NOKOGIRI::HTML(html)
+  courses = doc.css(".posts-holder").text
+  puts courses
