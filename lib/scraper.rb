@@ -10,7 +10,7 @@ html = open("http://learn-co-curriculum.github.io/site-for-scraping/courses")
   end
 
 def get_courses
-end 
+end
 
   def print_courses
     self.make_courses
