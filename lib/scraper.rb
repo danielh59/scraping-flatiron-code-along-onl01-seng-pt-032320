@@ -12,7 +12,8 @@ doc = NOKOGIRI::HTML(html)
   end
 
 def get_courses
-  courses
+doc = NOKOGIRI::HTML(html)
+  courses = posts-holder
 end
 
   def print_courses
