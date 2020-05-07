@@ -12,7 +12,7 @@ NOKOGIRI::HTML(html)
 
 def get_courses
 doc = NOKOGIRI::HTML(html)
-  courses = posts-holder
+  courses = doc.css(".posts-holder")
 end
 
   def print_courses
