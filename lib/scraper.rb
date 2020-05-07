@@ -13,6 +13,7 @@ NOKOGIRI::HTML(html)
 def get_courses
 doc = NOKOGIRI::HTML(html)
   courses = doc.css(".posts-holder").text
+  puts courses
 end
 
   def print_courses
