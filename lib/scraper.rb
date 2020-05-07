@@ -28,4 +28,4 @@ end
   end
 
 end
-get_courses
+Scraper.get_courses
