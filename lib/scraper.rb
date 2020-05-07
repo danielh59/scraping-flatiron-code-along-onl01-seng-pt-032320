@@ -28,3 +28,4 @@ end
   end
 
 end
+get_courses
